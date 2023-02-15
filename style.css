@@ -1,0 +1,10 @@
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10rem;
+}
+
+.wrapper{
+    max-width: 80%;
+}
