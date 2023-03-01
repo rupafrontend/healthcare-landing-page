@@ -9,67 +9,83 @@
   </head>
   <body>
 
+   <header>
     <nav class="navbar navbar-expand-lg ">
-        <div class="container ">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
+      <div class="container ">
+        <a class="navbar-brand" href="#"><img src="images/logo-2.svg" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Account</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Article</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+
+            </li>
+
+          
+          </ul>
+          <!-- <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form> -->
+         
+         
+        </div>
+        <div class="header-cta">
+          <button type="button" class="btn get_btn">Get Started </button>
+         
+        </div>
+      </div>
+    </nav>
+
+    <!-- hero -->
+
+    <section class="hero-section">
+      <div class="wrapper container-fluid m-auto mt-4 ">
+        <div class="row align-items-center">
+          <div class="col-5">
+            <div class="hero-content ">
+              <h1> Find And Search
+Your <span class=" heading" >Suitable Doctor’s</span></h1>
+            </div>
+            <p class=" header_text py-3">Join us and take care of yourself and your family with health services that will make you feel confident and safe in your daily life.</p>
            
-             
-            </ul>
-            <!-- <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form> -->
+            <div class="hero-btn pt-5 ">
+            <button type="button" class="btn live_btn ">Live Chat</button>
+            <button type="button" class="btn btn-outline-primary">Get Appoinment</button>
+           </div>
+
+          </div>
+          <div class="col-4">
+            <img src="images/doctor-img.png" alt="">
+
           </div>
         </div>
-      </nav>
+      </div>
+    </section>
 
-      <!-- hero -->
+   </header>
 
-      <section class="hero-section">
-        <div class="wrapper container-fluid m-auto mt-4 ">
-          <div class="row align-items-center">
-            <div class="col-5">
-              <div class="hero-content ">
-                <h1> Find And Search
-Your Suitable Doctor’s</h1>
-              </div>
-              <p>Join us and take care of yourself and your family with health services that will make you feel confident and safe in your daily life.</p>
-              <a href="#">Live Chat</a>
-              <a href="#">Get Appoinment</a>
-
-            </div>
-            <div class="col-4">
-              <img src="images/doctor-img.png" alt="">
-
-            </div>
-          </div>
-        </div>
-      </section>
 
       <!-- solution -->
+
+
       <section class="solution-section">
        
-        <div class="wrapper m-auto">
-          <h2 class="text-center mt-3 pt-3">3 Easy Steps and Get Your Solution</h2>
-          <div class="row pt-3 mt-4">
-            <div class="col text-center">
+        <div class=" solution">
+          <h2 class="text-center mt-3 pt-5">3 Easy Steps and Get Your Solution</h2>
+          <div class=" wrapper row pt-3 mt-4 py-4 m-auto ">
+            <div class="col text-center ">
               <img src="images/search-icon.svg" alt="">
               <div class="content "><p><b>Find best doctor’s</b></p>
                 <p>Find your doctor easily with a minimum of effort. We've  kept everything organised for you</p></div>
@@ -87,7 +103,7 @@ Your Suitable Doctor’s</h1>
            
           </div>
 
-          <div class="row service align-items-center">
+          <div class="row service align-items-center px-3 gap-6 column-gap-2">
             <div class="col">
               <img src="images/Quality doctor.png" alt="">
             </div>
@@ -97,11 +113,38 @@ Your Suitable Doctor’s</h1>
                   doctors</h2>
                   <p>With our top doctors, we are able to provide best medical services above average We have highly experienced doctors, so don't worry They are also very talented in their fields</p>
                  <div class="check-box">
-                  <li>Search your specialist & Online consultations anywhere</li>
-                  <li>Consultation our top specialists</li>
-                  <li>Doctors are available 24/7</li>
+                
+                  <div class="first_point d-flex align-items-center gap-2 ">
+                    <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill color-primary" viewBox="0 0 16 16">
+                      <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                    </svg></div> <p class="pt-3">Search your specialist & Online consultations anywhere</p>
+                  </div>
+                  <div class="first_point d-flex align-items-center gap-2 ">
+                    <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill color-primary" viewBox="0 0 16 16">
+                      <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                    </svg></div> <p class="pt-3">Consultation our top specialists</p>
+                  </div>
+                  <div class="first_point d-flex align-items-center gap-2 ">
+                    <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill color-primary" viewBox="0 0 16 16">
+                      <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                    </svg></div> <p class="pt-3">Search your specialist & Online consultations anywhere</p>
+                  </div>
+                  <!-- <div class="first_point d-flex align-items-center gap-2">
+                     <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                      <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                    </svg></div><p class="pt-3">Consultation our top specialists</p>
+                  </div>
+                  <div class="first_point d-flex align-items-center ">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                      <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                    </svg> <p>Doctors are available 24/7</p>
+                  </div> -->
+                
                  </div>
-                 <a href="#">Explore specialists</a>
+               <div class="solution-btn py-3"> 
+                 <button type="button" class="btn explore_btn">Explore specialists</button>
+                </div>
+                 
               </div>
             </div>
           </div>
@@ -111,29 +154,30 @@ Your Suitable Doctor’s</h1>
 
       <!-- services -->
 
+
       <section class="service-section">
-        <div class="wrapper service-container  m-auto">
-        <div class="text-center">  <h2>Our Service</h2>
-          <p>Our doctors have high qualified skills and are guaranteed to help you recover from your disease.</p></div>
-          <div class="row">
+        <div class="wrapper service-container m-auto py-5">
+        <div class="text-center py-4">  <h2>Our Service</h2>
+          <p>Our doctors have high qualified skills and are guaranteed <br> to help you recover from your disease.</p></div>
+          <div class="row align-items-center">
             <div class="col text-center">
-              <div class="box">
+              <div class="service_card ">
                 <img src="images/cardio-icon.svg" alt="">
-                <div class="box-content"><p><b>Cardiology</b></p>
+                <div class="box-content pt-2"><p><b>Cardiology</b></p>
                 <p>Our cardiologists are skilled at  the diagnosing and treating diseases
                   of the cardiovascular system.</p></div>
               </div>
             </div>
             <div class="col text-center">
-              <div class="box">
+              <div class="service_card  ">
                 <img src="images/lungs-icon.svg" alt="">
                 <div class="box-content"><p><b>Cardiology</b></p>
                 <p>Our cardiologists are skilled at  the diagnosing and treating diseases
                   of the cardiovascular system.</p></div>
               </div>
             </div>
-            <div class="col text-center">
-              <div class="box">
+            <div class="col text-center ">
+              <div class="service_card">
                 <img src="images/tablet-icon.svg" alt="">
                 <div class="box-content"><p><b>Cardiology</b></p>
                 <p>Our cardiologists are skilled at  the diagnosing and treating diseases
@@ -145,55 +189,79 @@ Your Suitable Doctor’s</h1>
       </section>
 
       <!-- certified-doctors -->
+
+
       <section class="doctors-section">
-        <div class="wrapper container">
-          <div><h2>Meet Our Certified Online Doctors</h2>
-          <p>Our online doctors have an average of 15 years experience and a 98% satisfaction rating, they really set us apart!</p></div>
+        <div class=" container align-items-center">
+          <div class="text-center py-4"><h2>Meet Our Certified Online Doctors</h2>
+          <p>Our online doctors have an average of 15 years experience <br> and a 98% satisfaction rating, they really set us apart!</p></div>
           <div class="row">
 
             <div class="col">
-              <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
+              <div class="card" style="width: 16rem;">
+                <img src=".." class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <h5 class="card-title text-center">Dr.Amanda Linda</h5>
+                  <p class="card-text text-center ">Cardiologist Specialist</p>
+                  <div class="social_media text-center">
+                    <a href="#"><img src="images/Fb.png" alt=""></a>
+                    <a href="#"><img src="images/Tw.png" alt=""></a>
+                    <a href="#"><img src="images/Ld.png" alt=""></a>
+                   </div>
                 </div>
               </div>
             </div>
             <div class="col">
-              <div class="card" style="width: 18rem;">
+              <div class="card" style="width: 16rem;">
                 <img src="..." class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <h5 class="card-title text-center"">Dr.Alisha Rahman</h5>
+                  <p class="card-text text-center">Cardiologist Specialist</p>
+                 <div class="social_media text-center">
+                  <a href="#"><img src="images/Fb.png" alt=""></a>
+                  <a href="#"><img src="images/Tw.png" alt=""></a>
+                  <a href="#"><img src="images/Ld.png" alt=""></a>
+                 </div>
                 </div>
               </div>
             </div>
             <div class="col">
-              <div class="card" style="width: 18rem;">
+              <div class="card" style="width: 16rem;">
                 <img src="..." class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <h5 class="card-title text-center"">Dr. Anthony Fucci</h5>
+                  <p class="card-text text-center">Neurology Specialist</p>
+                  <div class="social_media text-center">
+                    <a href="#"><img src="images/Fb.png" alt=""></a>
+                    <a href="#"><img src="images/Tw.png" alt=""></a>
+                    <a href="#"><img src="images/Ld.png" alt=""></a>
+                   </div>
                 </div>
               </div>
             </div>
 
+            <div class="col">
+              <div class="card" style="width: 16rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-center"">Dr.Khalid Abbed</h5>
+                  <p class="card-text text-center">Cancer Specialist</p>
+                  <div class="social_media text-center">
+                    <a href="#"><img src="images/Fb.png" alt=""></a>
+                    <a href="#"><img src="images/Tw.png" alt=""></a>
+                    <a href="#"><img src="images/Ld.png" alt=""></a>
+                   </div>
+                </div>
+              </div>
+            </div>
+           
+
           </div>
-          <a href="#">Explore All Doctors</a>
+
+
+          <div class="explore__btn text-center  my-5 ">
+            <button type="button" class="btn explore_btn ">Explore All Doctors</button>
+          </div>
         </div>
 
       </section>
@@ -202,9 +270,10 @@ Your Suitable Doctor’s</h1>
 
       <section class="mobile-app">
         <!-- <div class="container"> -->
-          <div class="row align-items-center column-gap-3">
-            <div class="col-4"><img src="images/mobile-mockup.svg" alt=""></div>
-            <div class="col-4">
+
+          <div class="  row align-items-center text-center">
+            <div class="col"><img src="images/mobile-mockup.svg" alt=""></div>
+            <div class="col">
               <div class="mobile-content">
                 <h2>Mobile apps are available
                   Get HealthCare for free!</h2>
@@ -219,38 +288,38 @@ Your Suitable Doctor’s</h1>
       <!-- appoinment -->
       <section class="appoinment-section">
         <div class="container">
-          <div class="row align-items-center">
-           <div class="col">
-             <div class="content text">
+          <div class="row align-items-center position-relative mb-3 py-5">
+           <div class="col ">
+             <div class="content_text z-3 position-absolute d-block">
             <h2>It’s time change your 
               life today</h2>
               <a href="#">Book an Appoinment </a>
           </div>
         </div>
 
-        <div class="col">
-          <img src="images/smiling-young-female-doctor-wearing-medical-robe-with-stethoscope-spreading-hand-isolated-green-wall 1.png" alt="">
+        <div class="col ">
+          <img  src="images/smiling-young-female-doctor-wearing-medical-robe-with-stethoscope-spreading-hand-isolated-green-wall 1.png" alt="">
         </div>
           </div>
         </div>
       </section>
 
       <footer>
-        <div class="container">
+        <div class="container footer py-5">
           <div class="row">
             <div class="col">
               <img src="images/logo-2.svg" alt="">
               <p>Metairie, 3689  Bassel Street, LA, Louisiana</p>
               <p>Contact us: 225-788-5489</p>
-              <div class="social-icons">
-                <a href="#"><img src="images/Facebook.svg" alt=""></a>
-                <a href="#"><img src="images/Instagram.svg" alt=""></a>
-                <a href="#"><img src="images/Twitter.svg" alt=""></a>
-                <a href="#"><img src="images/Youtube.svg" alt=""></a>
+              <div class="social_links ">
+                <a href="#"class="px-1"><img src="images/Facebook.svg" alt=""></a>
+                <a href="#"class="px-1"><img src="images/Instagram.svg" alt=""></a>
+                <a href="#"class="px-1"><img src="images/Twitter.svg" alt=""></a>
+                <a href="#"class="px-1"><img src="images/Youtube.svg" alt=""></a>
               </div>
             </div>
 
-            <div class="col">
+            <div class="col footer_list ">
               <ul>
                 <li><a href="#"><b>Catagory</b></a></li>
                 <li><a href="#">Home</a></li>
@@ -261,7 +330,7 @@ Your Suitable Doctor’s</h1>
 
               </ul>
             </div>
-            <div class="col">
+            <div class="col footer_list">
               <ul>
                 <li><a href="#"><b>About</b></a></li>
                 <li><a href="#">Partners</a></li>
@@ -275,15 +344,31 @@ Your Suitable Doctor’s</h1>
 
             <div class="col">
               <p><b>Subscribe newsletter</b></p>
-              <p>Sign up for tips, new destinations, and exclusive promos.</p>
+              <p class="newsletter_text">Sign up for tips, new destinations, and exclusive promos.</p>
               <div class="mb-3">
                 <!-- <label for="exampleFormControlInput1" class="form-label">Email address</label> -->
                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter your email">
               </div>
-              <button type="submit" class="btn btn-primary">Subscribe</button>
+              
+              <div class="footer_btn"> <a href="#" >Subscribe</a></div>
+
+             
             </div>
           </div>
+         
         </div>
+        <hr>
+       <div class=" wrapper d-flex justify-content-between m-auto">
+        <div ><p class="all_right">© 2021 Healthcare - All rights reserved.</p></div>
+
+        <div class="  footer_link ">
+
+          <a href="#">Privacy</a>
+          <a href="#">Security</a>
+          <a href="#">Terms</a>
+         
+        </div>
+       </div>
       </footer>
 
 
